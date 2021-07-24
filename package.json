@@ -1,0 +1,26 @@
+{
+  "name": "device-manager",
+  "version": "1.0.0",
+  "description": "Interface classes for using embedded devices in Node JS",
+  "main": "./device/DeviceManager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dardin-dale/device-manager.git"
+  },
+  "keywords": [
+    "serialport"
+  ],
+  "author": "Logan Crecraft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dardin-dale/device-manager/issues"
+  },
+  "homepage": "https://github.com/Dardin-dale/device-manager#readme",
+  "dependencies": {
+    "p-queue": "^7.1.0",
+    "serialport": "^9.2.0"
+  }
+}
